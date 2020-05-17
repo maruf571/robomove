@@ -12,8 +12,8 @@ import java.util.Map;
 @Slf4j
 public abstract class RobotAction {
 
-    static Map<String, Integer> directionMap;
-    static Map<Integer, String> reverseMap;
+    private final static Map<String, Integer> directionMap;
+    private final static Map<Integer, String> reverseMap;
 
     public static final String NORTH = "north";
     public static final String SOUTH = "south";

@@ -11,11 +11,7 @@ import java.util.regex.Pattern;
 public class PositionAction extends RobotAction {
 
     public static final Pattern pattern = Pattern.compile("^POSITION\\s(\\d)\\s(\\d)\\s(.*)");
-    /**
-     * Set the initial position
-     *
-     * @param command
-     */
+    
     @Override
     public void execute(String command, RobotPosition current) {
         Matcher matcher = pattern.matcher(command);

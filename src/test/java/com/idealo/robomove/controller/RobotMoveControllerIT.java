@@ -21,8 +21,6 @@ public class RobotMoveControllerIT {
     @Autowired
     private MockMvc mockMvc;
 
-    private final ObjectMapper objectMapper = new ObjectMapper();
-
     @Test
     public void should_set_initial_position() throws Exception {
         // Given

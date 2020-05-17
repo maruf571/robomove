@@ -1,4 +1,4 @@
-package com.idealo.robomove.service;
+package com.idealo.robomove.service.impl;
 
 import com.idealo.robomove.dto.RobotPosition;
 import com.idealo.robomove.exception.RoboMoveException;
@@ -22,10 +22,6 @@ public class RobotMoveServiceImpl implements RobotMoveService {
 
     private final ActionManager actionManager;
 
-    /**
-     * As same input will produce same result, we can easily implement cache
-     */
-
     @Override
     public RobotPosition parseScript(final String script) {
         log.info("parsing script");
@@ -41,7 +37,7 @@ public class RobotMoveServiceImpl implements RobotMoveService {
             throw new RoboMoveException("Error while reading script", HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
-        System.out.println("Final position: " + current.toString());
+        log.info("Final position: " + current.toString());
         return current;
     }
 }

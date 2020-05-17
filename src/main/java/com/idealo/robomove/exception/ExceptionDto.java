@@ -11,10 +11,10 @@ import java.util.Date;
 @AllArgsConstructor
 public class ExceptionDto {
 
-    private Date timestamp;
+    private final Date timestamp;
 
-    private String message;
+    private final String message;
 
-    private String details;
+    private final String details;
 
 }
