@@ -1,0 +1,12 @@
+POST http://localhost:8080
+Content-Type: text/plain
+
+POSITION 1 3 EAST
+FORWARD 3
+WAIT
+TURNAROUND
+FORWARD 1
+RIGHT
+FORWARD 2
+
+###
