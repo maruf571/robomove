@@ -67,4 +67,15 @@ http://localhost:8080
 
 ```
 
+Example script
+```
+POSITION 1 3 SOUTH
+FORWARD 3
+WAIT
+TURNAROUND
+FORWARD 1
+RIGHT
+FORWARD 2
+
+```
 

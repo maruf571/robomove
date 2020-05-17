@@ -25,14 +25,7 @@ public class RobotController {
     private final RobotMoveService robotMoveService;
 
     @GetMapping
-    public String getIndexPage(Model model) {
-        RobotPosition position = new RobotPosition(
-                0,
-                0,
-                RobotAction.NORTH,
-                0
-        );
-        model.addAttribute("initPosition", position);
+    public String getIndexPage() {
         return "index";
     }
 
