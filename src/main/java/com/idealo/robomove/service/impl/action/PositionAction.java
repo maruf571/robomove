@@ -19,7 +19,7 @@ public class PositionAction extends RobotAction {
             int row = Integer.parseInt(matcher.group(1));
             int col = Integer.parseInt(matcher.group(2));
             String direction = matcher.group(3);
-            if(row > 5 || col > 5) {
+            if(row > 5 || col > 5 || row < 0 || col < 0) {
                 throw new RoboMoveException("Index out of bound", HttpStatus.BAD_REQUEST);
             }
             current.setRow(row);

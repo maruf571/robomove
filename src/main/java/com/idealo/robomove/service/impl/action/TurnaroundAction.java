@@ -9,6 +9,6 @@ public class TurnaroundAction extends RobotAction {
     public static final Pattern pattern = Pattern.compile("^TURNAROUND");
     @Override
     public void execute(String command, RobotPosition current) {
-        setDirection(current, "turnaround");
+        setDirection(current, RobotAction.TURNAROUND);
     }
 }

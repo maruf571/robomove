@@ -11,6 +11,6 @@ public class RightAction extends RobotAction {
 
     @Override
     public void execute(String command, RobotPosition current) {
-        setDirection(current, "right");
+        setDirection(current, RobotAction.RIGHT);
     }
 }

@@ -64,7 +64,6 @@ $ mvn clean verify
 Hit the browser 
 ```
 http://localhost:8080
-
 ```
 
 Example script

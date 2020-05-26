@@ -11,6 +11,6 @@ public class LeftAction extends RobotAction {
 
     @Override
     public void execute(String command, RobotPosition current) {
-        setDirection(current, "left");
+        setDirection(current, RobotAction.LEFT);
     }
 }

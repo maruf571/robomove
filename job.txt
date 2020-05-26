@@ -1,0 +1,21 @@
+Skills & Requirements
+- You are able to understand and analyse complex requirements
+and implement them as excellent technical solutions.
+
+- You pay attention to high software quality
+(especially clean code, design patterns, testing, etc.).
+
+- You have experience with the development of microservices.
+
+- You are familiar with modern technologies like Java 11,
+Kotlin, Spring Boot, Kubernetes, Docker, Kafka and MongoDB.
+
+- You have already developed modern web applications, ideally with Angular.
+
+- Experience with AWS and Infrastructure as Code (Terraform) is desirable.
+
+- You have excellent communication skills in English both written and verbal. German is a plus.
+
+- You communicate in an open and constructive manner.
+
+
