@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 @Slf4j
 public class WaitAction extends RobotAction {
 
-    public static final Pattern pattern = Pattern.compile("^WAIT");
+    public static final Pattern pattern = Pattern.compile("^WAIT$");
 
     @Override
     public void execute(String command, RobotPosition current) {

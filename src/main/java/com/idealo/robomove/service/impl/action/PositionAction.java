@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 
 public class PositionAction extends RobotAction {
 
-    public static final Pattern pattern = Pattern.compile("^POSITION\\s(\\d)\\s(\\d)\\s(.*)");
+    public static final Pattern pattern = Pattern.compile("^POSITION\\s(\\d)\\s(\\d)\\s(.*)$");
     
     @Override
     public void execute(String command, RobotPosition current) {

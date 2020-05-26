@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class LeftAction extends RobotAction {
 
-    public static final Pattern pattern = Pattern.compile("^LEFT");
+    public static final Pattern pattern = Pattern.compile("^LEFT$");
 
     @Override
     public void execute(String command, RobotPosition current) {
